@@ -137,7 +137,7 @@ nav .order {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
-  height: 120%;
+  height: 110%;
   -o-object-fit: cover;
      object-fit: cover;
   -ms-flex-item-align: center;
