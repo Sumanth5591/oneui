@@ -32,6 +32,7 @@ h3 {
 
 h4 {
   font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
@@ -158,5 +159,133 @@ nav .order {
 
 .showcase .info h3 {
   padding-bottom: 1rem;
+}
+
+.feature-containers {
+  background: #323232;
+  position: relative;
+  z-index: 0;
+}
+
+.feature-containers .wave {
+  position: absolute;
+  left: 0;
+  bottom: -13%;
+  width: 100%;
+  z-index: -1;
+}
+
+.features {
+  min-height: 90vh;
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.features .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: black;
+}
+
+.features .cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  margin: 0rem 10rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.features .cards .card h4 {
+  margin: 2rem 0rem 1rem;
+}
+
+.features .cards .card p {
+  padding: 2rem;
+  text-align: center;
+}
+
+.features .cards .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.soon {
+  background: radial-gradient(#525252, #131313);
+  min-height: 80vh;
+  position: relative;
+  z-index: 0;
+}
+
+.soon img,
+.soon .circle,
+.soon h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.soon .circle {
+  z-index: -1;
+}
+
+.soon h2 {
+  top: 25%;
+}
+
+.footer {
+  min-height: 10vh;
+  background: #000000;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  list-style: none;
+}
+
+.footer h1 {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
 }
 /*# sourceMappingURL=styles.css.map */
